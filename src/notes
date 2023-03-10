@@ -30,4 +30,4 @@
 
       i) event binding (1 direction) - (event_name)="function_name()";
       ii) event binding using $event (event_name)="function_name($event)"
-      iii)event binding using template referencing variable = variable_name
+      iii)event binding using template referencing variable = #variable_name
