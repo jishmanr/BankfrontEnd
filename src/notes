@@ -1,0 +1,33 @@
+                        anngular
+           I
+ basic building block
+ 1.module - to import 3rd party modules(root modules)
+ 2.component - to create html css and ts file 
+
+
+ basic commands 
+
+ 1.ng new project_name = to create a new project
+ 2.ng g c component_name = to create anew component
+ 3.ng serve --open = to run angular file       
+
+
+ basic concept
+ 1.data binding
+
+ share data betwemm components
+    
+  ts----->  component
+  html-----> view
+
+  a.  one way databinding(one direction)                
+      ts->html or html->ts
+      a.1 component to view
+      i)string interpolation(1 direction) - {{expression}}
+      ii)property binding - [attribute name] = "property"
+
+      a.2) view to component
+
+      i) event binding (1 direction) - (event_name)="function_name()";
+      ii) event binding using $event (event_name)="function_name($event)"
+      iii)event binding using template referencing variable = variable_name
